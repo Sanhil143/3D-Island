@@ -61,7 +61,7 @@ export default class World{
       this.orbitControls.enabled = !this.orbitControls.enabled;
     })
     this.pointTransformControl.attach(this.pointLight);
-    this.scene.add(this.pointTransformControl)
+    // this.scene.add(this.pointTransformControl)
   }
 
   setUpGui(){
